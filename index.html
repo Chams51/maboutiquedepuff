@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Puffs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ma Boutique de Puffs</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#panier">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <div class="hero">
+            <h2>Découvrez nos Puffs de qualité supérieure</h2>
+            <p>Une large gamme de saveurs pour tous les goûts.</p>
+            <a href="#produits" class="btn">Voir les produits</a>
+        </div>
+    </section>
+
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produits-container">
+            <div class="produit">
+                <img src="images/puff1.jpg" alt="Puff Saveur Fraise">
+                <h3>Puff Saveur Fraise</h3>
+                <p>Une expérience fruitée et sucrée.</p>
+                <p class="prix">9,99 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="images/puff2.jpg" alt="Puff Saveur Menthe">
+                <h3>Puff Saveur Menthe</h3>
+                <p>Fraîcheur garantie à chaque bouffée.</p>
+                <p class="prix">9,99 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="images/puff3.jpg" alt="Puff Saveur Mangue">
+                <h3>Puff Saveur Mangue</h3>
+                <p>Un goût exotique et intense.</p>
+                <p class="prix">9,99 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ma Boutique de Puffs. Tous droits réservés.</p>
+        <p><a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></p>
+    </footer>
+</body>
+</html>
